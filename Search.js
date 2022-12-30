@@ -7,3 +7,10 @@ document.getElementById('submit').onclick = () => {
     active: true
   });
 }
+
+document.getElementById('website').onclick = () => {
+
+  chrome.tabs.create({
+    url: 'https://robloxuserfinder.web.app/'
+  });
+}
